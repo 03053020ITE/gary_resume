@@ -336,6 +336,12 @@ p {
 #projects .projects-header h1 {
 	margin-bottom: 50px;
 }
+#projects .projects-header h2 {
+	font-size: large;
+	margin-bottom: 30px;
+	text-align:center;
+	line-height:24pt;
+}
 #projects .all-projects {
 	display: flex;
 	align-items: center;
