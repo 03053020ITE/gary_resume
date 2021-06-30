@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+  <link rel="stylesheet" href="dist/css/lightbox.min.css">
   <title>Gary Resume</title>
 
 </head>
@@ -103,18 +103,8 @@
   <div id="portfolio">
     <div class="container-fluid p-0">
         <div class="row g-0 no-gutters">
-            <div class="col-lg-4 col-sm-6">
-                <a class="portfolio-box" href="img/15067.jpg" title="Project Name">
-                    <img class="img-fluid" src="15067.jpg" alt="..." />
-                    <div class="portfolio-box-caption">
-                        <div class="project-category text-white-50">Rmbedded System
-                        </div>
-                        <div class="project-name">Use Raspberry Pi and Arduion for IOT applications</div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <a class="portfolio-box" href="img/15084.jpg" title="Project Name">
+                        <div class="col-lg-4 col-sm-6">
+                <a class="portfolio-box" href="img/15084.jpg" title="Data Visualization / Python" data-lightbox="roadtrip">
                     <img class="img-fluid" src="15084.jpg" alt="..." />
                     <div class="portfolio-box-caption">
                         <div class="project-category text-white-50">Data Visualization
@@ -124,7 +114,17 @@
                 </a>
             </div>
             <div class="col-lg-4 col-sm-6">
-                <a class="portfolio-box" href="img/15082.jpg" title="Project Name">
+              <a class="portfolio-box" href="img/15067.jpg" title="Embedded System / Raspberry Pi / Arduion / IOT applications" data-lightbox="roadtrip">
+                  <img class="img-fluid" src="15067.jpg" alt="..." />
+                  <div class="portfolio-box-caption">
+                      <div class="project-category text-white-50">Rmbedded System
+                      </div>
+                      <div class="project-name">Use Raspberry Pi and Arduion for IOT applications</div>
+                  </div>
+              </a>
+          </div>
+            <div class="col-lg-4 col-sm-6">
+                <a class="portfolio-box" href="img/15082.jpg" title="Distributed System / KubeFlow / Big Data / Cloud Computing "data-lightbox="roadtrip">
                     <img class="img-fluid" src="15082.jpg" alt="..." />
                     <div class="portfolio-box-caption">
                         <div class="project-category text-white-50">Distributed System
@@ -134,7 +134,7 @@
                 </a>
             </div>
             <div class="col-lg-4 col-sm-6">
-                <a class="portfolio-box" href="img/15070.jpg" title="Project Name">
+                <a class="portfolio-box" href="img/15070.jpg" title="Robotic Arms"data-lightbox="roadtrip">
                     <img class="img-fluid" src="15070.jpg" alt="..." />
                     <div class="portfolio-box-caption">
                         <div class="project-category text-white-50">Robotic Arms</div>
@@ -143,7 +143,7 @@
                 </a>
             </div>
             <div class="col-lg-4 col-sm-6">
-                <a class="portfolio-box" href="img/15088.jpg" title="Project Name">
+                <a class="portfolio-box" href="img/15088.jpg" title="Deep Learning TensorFlow / Keras / Matlab"data-lightbox="roadtrip">
                     <img class="img-fluid" src="15088.jpg" alt="..." />
                     <div class="portfolio-box-caption">
                         <div class="project-category text-white-50">Deep Learning</div>
@@ -152,7 +152,7 @@
                 </a>
             </div>
             <div class="col-lg-4 col-sm-6">
-                <a class="portfolio-box" href="img/15077.jpg" title="Project Name">
+                <a class="portfolio-box" href="img/15077.jpg" title="HTML5 / CSS3 / Bootstrap4 / JavaScript"data-lightbox="roadtrip">
                     <img class="img-fluid" src="15077.jpg" alt="..." />
                     <div class="portfolio-box-caption p-3">
                         <div class="project-category text-white-50">Web Design</div>
@@ -282,6 +282,8 @@
               vs YOLOv3 
               vs YOLOv3-tiny</p>
               <a class="btn btn-danger" href="https://www.youtube.com/watch?v=P4RlAYq4TZI&ab_channel=%E8%94%A1%E6%98%8E%E8%AB%BA" role="button">FIND OUT MORE</a>
+                    <!-- <a class="aaa" href="#"><img src="img/icons8-youtube-2--unscreen.gif"/></a> -->
+
           </div>
           <div class="project-img">
             <img src="./img/video_YOLOv4.png" alt="img">
@@ -318,16 +320,9 @@
         <h1 class="section-title">Contact <span>info</span></h1>
       </div>
       <div class="contact-items">
+        
         <div class="contact-item">
-          <div class="icon"><img src="https://img.icons8.com/cotton/64/4a90e2/iphone-x--v2.png"/></div>
-          <div class="contact-info">
-            <h1>Phone</h1>
-            <h2>09 8686 4419</h2>
-            <h2></h2>
-          </div>
-        </div>
-        <div class="contact-item">
-          <div class="icon"><img src="https://img.icons8.com/fluent/48/000000/gmail.png"/></div>
+          <div class="icon"><img src="img/icons8-gmail.gif"/></div>
           <div class="contact-info">
             <h1>Email</h1>
             <h2>s0927071101@gmail.com</h2>
@@ -335,7 +330,16 @@
           </div>
         </div>
         <div class="contact-item">
-          <div class="icon"><img src="https://img.icons8.com/fluent/48/000000/defend-family.png"/></div>
+          <!-- <div class="icon"><img src="https://img.icons8.com/cotton/64/4a90e2/iphone-x--v2.png"/></div> -->
+          <div class="icon"><img src="img/icons8-phone-message.gif"/></div>
+          <div class="contact-info">
+            <h1>Phone</h1>
+            <h2>09 8686 4419</h2>
+            <h2></h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="img/icons8-home.gif"/></div>
           <div class="contact-info">
             <h1>Address</h1>
             <h2>Taiwan, Taoyuan
@@ -359,7 +363,8 @@
           <a href="#"><img src="https://img.icons8.com/ios-filled/50/4a90e2/facebook--v1.png"/></a>
         </div>
         <div class="social-item">
-          <a href="#"><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/></a>
+          <a href="#"><img src="img/icons8-line-50.png"/></a>
+          
         </div>
         <div class="social-item">
           <a href="#"><img src="https://img.icons8.com/ios-filled/50/4a90e2/twitter-squared.png"/></a>
@@ -370,11 +375,14 @@
       </div>
     </div>
   </section>
+
+  
   <!-- End Footer -->
   <script src="./app.js"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="dist/js/lightbox-plus-jquery.min.js"></script>
 </body>
 
 </html>

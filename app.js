@@ -23,3 +23,10 @@ menu_item.forEach((item) => {
 		mobile_menu.classList.toggle('active');
 	});
 });
+
+window.addEventListener('DOMContentLoaded', event => {
+	    // Activate SimpleLightbox plugin for portfolio items
+		new SimpleLightbox({
+			elements: '#portfolio a.portfolio-box'
+		});
+});
